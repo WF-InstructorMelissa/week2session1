@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./styles.css'>
+    <!-- <script src='script.js' defer ></script> Alternate way to link in JS files but still allow html to load first -->
     <title>Office Hours</title>
-    <style>
-        h1 {
-            font-size: 3em;
-    color: blue;
-    background-color: aquamarine;
-    font-family: monospace;
-        }
-    </style>
 </head>
 <body>
     <h1>Just a html doc</h1>
-    <button onClick='add(2,4)'>Click Me</button>
+    <button onClick='addNumbers()'>Add 2 numbers</button>
+    <hr>
+    <form>
+        <label for='num1'>Number 1</label>
+        <input type='number' id='num1' name='num1'>
+        <label for='num2'>Number 2</label>
+        <input type='number' id='num2' name='num2'>
+        <button onclick='userAdd()'>Submit</button>
+    </form>
     <script src='script.js'></script>
 </body>
 </html>

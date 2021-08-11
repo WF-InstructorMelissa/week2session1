@@ -1,7 +1,50 @@
+* {
+    border: 1px dotted red;
+}
+
 body {
     background-color: #5969af;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 img {
     max-width: 250px;
+}
+header, footer, #main {
+    width: 95%;
+    background-color: #ffe4c4;
+    min-height: 100px;
+    margin: 20px;
+}
+#main, header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    height: 10px;
+    background-color: #5f9ea0;
+    width: 95%;
+}
+.section {
+    background-color: #5f9ea0;
+    width: 95%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#about {
+    max-width: 450px;
+}
+.cats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
