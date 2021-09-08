@@ -1,0 +1,19 @@
+* {
+    border: 1px dotted red;
+    margin: auto;
+}
+header {
+    background-color: #00008b;
+    width: 100%;
+}
+#ltBlue {
+    background-color: #138edb;
+    width: 100%;
+}
+#main {
+    background-color: #fff;
+    width: 75%;
+}
+.box {
+    border: 5px solid #d3d3d3;
+}
